@@ -1,0 +1,94 @@
+body {
+  font-family: 'Open Sans', sans-serif; /* Modern, readable font */
+  background-color: #f5f5f5; /* Light gray background */
+  color: #333; /* Darker text color for contrast */
+  text-align: center; /* Center text for a clean look */
+}
+
+header {
+  background-image: linear-gradient(to right, #f0f0f0, #e0e0e0); /* Soft gradient background */
+  padding: 30px; /* Generous padding for header elements */
+  text-align: center; /* Center header content */
+}
+
+header h1 {
+  font-size: 3em; /* Large, attention-grabbing heading */
+  font-weight: 700; /* Bolder font weight */
+  margin-bottom: 15px; /* Space below heading */
+}
+
+main {
+  max-width: 960px; /* Constrain content width */
+  margin: 40px auto; /* Center content with top/bottom margins */
+  background-color: #fff; /* White background for content area */
+  padding: 30px; /* Padding around content */
+  border-radius: 10px; /* Soft rounded corners for visual appeal */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+section {
+  margin-bottom: 30px; /* Space between sections */
+}
+
+h2 {
+  font-size: 2em; /* Subheadings for content sections */
+  font-weight: 500; /* Slightly bolder than regular text */
+  margin-bottom: 15px; /* Space below subheadings */
+}
+
+p {
+  font-size: 16px; /* Comfortable reading size */
+  line-height: 1.6; /* Generous line height for readability */
+}
+
+a {
+  color: #337ab7; /* Blue color for links */
+  text-decoration: none; /* Remove underline for cleaner look */
+}
+
+a:hover {
+  color: #23527c; /* Darker blue on hover for visual feedback */
+}
+
+/* Styling for images */
+img {
+  max-width: 100%; /* Ensure images don't exceed container width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Soft rounded corners */
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Styling for buttons */
+.btn {
+  display: inline-block; /* Display as a block-level element */
+  padding: 10px 20px; /* Padding for button content */
+  background-color: #337ab7; /* Blue background */
+  color: #fff; /* White text color */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Indicate interactivity */
+}
+
+.btn:hover {
+  background-color: #23527c; /* Darker blue on hover */
+}
+
+/* Styles for unordered lists */
+ul {
+  padding: 0; /* Remove default padding from the list */
+  list-style: none; /* Remove default bullet points */
+}
+
+/* Styles for list items */
+li {
+  margin: 5px 0; /* Add space between list items */
+  padding: 10px; /* Add some padding within each item */
+  border-bottom: 1px solid #ddd; /* Add a subtle border under each item */
+  list-style-type: disc; /* Add custom bullet points (optional) */
+  font-size: 16px; /* Adjust font size for list items */
+}
+
+/* Hover effect for list items (optional) */
+li:hover {
+  background-color: #eee; /* Change background color on hover */
+}
